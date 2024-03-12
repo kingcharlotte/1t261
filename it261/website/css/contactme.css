@@ -1,0 +1,67 @@
+/* styles for my week 7 contact form, which should be emailable*/
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: beige;
+}
+
+form {
+    width:500px;
+    margin:30px auto;
+}
+
+fieldset {
+    padding:10px;
+}
+
+label {
+display:block;
+margin-bottom: 5px;
+font-weight:bold;
+
+
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width:100%;
+    margin-bottom: 10px;
+}
+
+span {
+   display: block;
+   color: red;
+   font-style: italic; 
+   margin-bottom: 10px;
+}
+
+textarea {
+    width:100%;
+    resize:none;
+    height:80px;
+    margin-bottom: 10px;
+
+}
+
+select {
+    margin-bottom: 10px;
+
+}
+
+form ul {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,246 @@
+/* styles for my website */
+
+
+/* universal selector */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.current {
+    color:red;
+}
+
+header {
+    background:yellow;
+padding:20px 0;
+}
+
+.inner-height {
+    max-width:120px;
+margin:0px auto;
+overflow:hidden;
+}
+
+#logo {
+    width:200px;
+    float:left;
+}
+
+nav ul {
+    float:right;
+    margin-top:30px;
+    /* get rid of bullet pts. */
+    list-style-type: none;
+}
+
+/* remove underline */
+nav a {
+    text-decoration: none;
+}
+nav li {
+    float:left;
+    margin-left: 30px;
+}
+
+#wrapper {
+max-width:1200px;
+margin:20px auto;
+clear:both;
+/* our magin bottom will not show becuase we have floated elements  */
+/* to fix this add the line below: */
+overflow: hidden;
+}
+
+
+#hero {
+/* height:400px; */
+background:red;
+margin-bottom:20px;
+
+}
+
+main {
+width:62%;
+background:lightblue;
+float:left;
+
+}
+/* 62 + 35 = 97 which = 3% of gutter space aka ~= 20px */
+aside {
+width:35%;
+/* height:300px; */
+background:salmon;
+/* makes this box display on the right */
+float:right;
+
+}
+
+
+footer {
+    height:60px;
+    line-height: 60px;
+    background:#ddd;
+    clear:both;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+footer li {
+    justify-content: center;
+    margin:0 15px;
+}
+
+/* typography */
+p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+
+}
+
+h1 {
+    font-size: 2.5em;
+
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    font-family: serif;
+}
+
+/* styles for gallery */
+
+table {
+    border:1px solid red;
+    border-collapse:collapse;
+
+}
+
+td {
+    border:1px solid white;
+
+}
+
+
+#welcome {
+    color:red;
+}
+
+
+#myAside {
+float: right;
+padding: 10px; /* Add padding for better appearance */
+color: #bc9e82;
+
+}
+
+#welcome, #myAside {
+display: inline-block;
+vertical-align: middle;
+}
+
+/* end of styles for gallery */
+
+
+/* styes for contact.php */
+
+/* styles for my week 7 contact form, which should be emailable*/
+
+
+
+form {
+    width:500px;
+    margin:30px auto;
+}
+
+fieldset {
+    padding:10px;
+}
+
+label {
+display:block;
+margin-bottom: 5px;
+font-weight:bold;
+
+
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+
+textarea {
+    width:100%;
+    resize:none;
+    height:80px;
+    margin-bottom: 10px;
+
+}
+
+select {
+    margin-bottom: 10px;
+
+}
+
+form ul {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* styles for daily */
+ 
+
+ #wrapperDaily {
+    width:940px;
+    margin:20px auto;
+ }
+
+ /* styles for index.php IN WEBSITE */
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    }
+
+
+    /* for contact.php  error msgs*/
+
+span {
+    display: block;
+    color: red;
+    font-style: italic; 
+    margin-bottom: 10px;
+    }
