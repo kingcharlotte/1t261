@@ -1,0 +1,101 @@
+/* styles for my website */
+
+/* universal selector */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body {
+    background-color: rgb(34, 195, 95);
+
+
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    content:"";
+    display:table;
+    clear:both;
+    /* overflow:hidden; */
+   
+            
+}
+nav {
+    height:60px;
+    background:pink;
+    line-height:60px;
+    margin-bottom: 20px;
+
+}
+
+/* float the li's */
+nav li {
+
+    float:left;
+    width:16.66%;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
+
+main {
+    width:62%;
+    float:left;
+
+}
+
+aside {
+    width:35%;
+    float:right;
+}
+
+footer {
+    height:60px;
+    line-height: 60px;
+    background-color:blue;
+    clear:both;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+}
+
+footer li {
+    justify-content: center;
+    margin:0 15px;
+}
+
+.right {
+    float:right;
+    margin-left:30px;
+}
+
+
+/* typography */
+h1 {
+    text-align:center;
+    font-size:3em;
+    margin:20px 0;
+}
+
+h2 {
+    font-size:2em;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+main h2, aside h2 {
+
+    text-align: left;
+}
